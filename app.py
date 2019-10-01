@@ -13,9 +13,9 @@ Created on Mon Sep 30 19:51:04 2019
 """
 
 from typing import List
-from usuarios import obtener_usuarios, obtener_usuarios_ramdon, obtener_usuarios_ramdon_request
-from post import ver_post_de_usuario, ver_posts_de_usuarios, ver_post_de_usuario_request, ver_post_mas_largo
-from comentarios import obtener_comentarios_post_request
+from gestionblog.usuarios import obtener_usuarios, obtener_usuarios_ramdon, obtener_usuarios_ramdon_request
+from gestionblog.post import ver_post_de_usuario, ver_posts_de_usuarios, ver_post_de_usuario_request, ver_post_mas_largo
+from gestionblog.comentarios import obtener_comentarios_post_request
 
 ORIGEN_DATA_USUARIOS = 'data/usuarios.json'
 URL_DATA_USUARIOS = 'https://jsonplaceholder.typicode.com/users'
